@@ -1,0 +1,1984 @@
+#1b1c30 #22233b #2b2c45 #585972 #9a9ab5 #b8c0e0 #cad3f5 #fab387 #a6da95 #ed8796 #fab387 #a6da95 #a6da95 #ed8796 #a6da95 #fab387 #6E6E6E #616C90 body,
+.heading,
+#dashboard .actions a,
+.div,
+.title,
+h1,
+h2,
+h3,
+h4,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+blockquote,
+pre,
+kbd,
+tt,
+code,
+var,
+pre,
+samp,
+input,
+textarea,
+.heading .actions,
+.heading .action,
+.heading span.actions,
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted,
+.datetime,
+.heading,
+a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a:visited {
+  color: #a6da95 !important;
+}
+
+a:visited:hover {
+  background: transparent;
+  color: #fab387;
+}
+
+a {
+  color: #a6da95;
+}
+
+#greeting {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#greeting a {
+  padding: 4px !important;
+}
+
+::selection {
+  background-color: #a6da95;
+  color: #22233b;
+}
+
+#main {
+  background: #1b1c30;
+}
+
+body {
+  font-size: 11pt;
+}
+
+#workskin img {
+  border-radius: 1rem;
+}
+
+#workskin p {
+  font-size: 12pt;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header h1 {
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+#header h1.heading a::before {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20pt;
+  margin: 0px auto;
+  font-weight: bold;
+  content: "AMAZE! AMAZE! AMAZE!";
+}
+
+.menu.dropdown-menu {
+  border: 2px solid #22233b !important;
+  border-radius: 0.75em !important;
+  padding: 8px !important;
+  box-sizing: border-box;
+}
+
+#header .menu li {
+  border-bottom: 0px;
+}
+
+li.comment,
+.thread .even {
+  border-radius: .75em;
+  border: 2px solid #2b2c45;
+  padding: 10px;
+  background: #22233b;
+}
+
+li.comment,
+.thread .odd {
+  border-radius: .75em;
+  border: 2px solid #2b2c45;
+  padding: 10px;
+  background: #22233b;
+}
+
+li.comment {
+  border-radius: .75em;
+  border: 1px solid #fab387;
+  padding: 10px;
+  background: #1b1c30ba;
+}
+
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions .current:hover {
+  color: #1b1c30 !important;
+  background: #fab387 !important;
+  border-radius: 28px;
+}
+
+.actions a:hover,
+.actions li .current a:hover {
+  color: #1b1c30 !important;
+  border-radius: 28px;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #1b1c30;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #22233b;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover {
+  color: #1b1c30 !important;
+  background: #a6da95;
+}
+
+body {
+  background: #22233b !important;
+  color: #b8c0e0 !important;
+}
+
+a {
+  transition: 0.2s ease-in-out !important;
+}
+
+body,
+th,
+tr:hover,
+col.name,
+form blockquote.userstuff,
+input:focus,
+input,
+select:focus,
+select,
+textarea:focus,
+textarea,
+.autocomplete div.dropdown ul,
+#ui-datepicker-div,
+#ibox_wrapper,
+#ibox_content,
+.toggled form,
+.dynamic form,
+.secondary,
+.listbox .index,
+.nomination dt {
+  background: #1b1c30;
+  color: #b8c0e0;
+}
+
+#outer.wrapper {
+  background-color: #1b1c30 !important;
+}
+
+.bookmark .count a {
+  color: #1b1c30 !important;
+}
+
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+div.error {
+  border-radius: 0.75em;
+  background: #22233b !important;
+  border: 2px solid #ed8796;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #b8c0e0;
+  box-shadow: none;
+  margin-top: 10px !important;
+}
+
+#header .search input[type="text"],
+#header .search input[type="text"]:focus {
+  color: #b8c0e0 !important;
+}
+
+#header .logo {
+  display: none;
+}
+
+.home .header h2 {
+  border-bottom: 0px;
+}
+
+.subscription dd {
+  background-color: transparent !important;
+}
+
+#dashboard .actions a,
+#dashboard .actions a:visited {
+  color: #b8c0e0 !important;
+  transition: 0.2s ease-in-out !important;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.blurb ul.required-tags {
+  background: #22233b !important;
+}
+
+.filters dl {
+  background: transparent;
+}
+
+#dashboard .actions .current {
+  color: #b8c0e0 !important;
+  background: #2b2c45;
+  transition: 0.2s ease-in-out !important;
+  border-radius: 7px;
+  padding: 3px 5px 3px 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.announcement .userstuff h2 {
+  margin-top: 10px;
+  color: #1b1c30;
+}
+
+fieldset fieldset,
+fieldset dl dl,
+.fieldset,
+fieldset {
+  border-radius: 0.75em;
+  background: #1b1c30;
+}
+
+#header .user a,
+#header .user a:visited {
+  margin: 2px;
+}
+
+.picture .header {
+  border: none;
+}
+
+li.comment,
+.thread .even {
+  border-radius: 0.75em;
+}
+
+.bookmark div.user {
+  border-radius: 0.5em;
+}
+
+.blurb .header .heading {
+  background: transparent !important;
+}
+
+.blurb .stats {
+  color: #cad3f5;
+}
+
+.blurb .stats dt {
+  color: #cad3f5;
+  font-variant: common-ligatures;
+  font-weight: normal !important;
+  font-size: 10pt;
+}
+
+.module .heading h4,
+.module .heading h5,
+h5.module .fandoms .heading,
+.meta .stats,
+.meta .stats dl dt,
+.meta .stats dl dd {
+  background: transparent !important;
+}
+
+h5.heading,
+.user .datetime,
+.bookmark .user .userstuff,
+.bookmark .user .meta {
+  margin: 10px;
+}
+
+.reading h4.viewed {
+  background: #22233b;
+  border: 1px solid #b8c0e0;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+.posted {
+  font-size: 0.8em;
+}
+
+#header .menu,
+#header .menu li a:link,
+#header .menu li a:visited {
+  border-radius: 8px;
+  background: #22233b !important;
+  color: #b8c0e0 !important;
+  border: none;
+  margin-bottom: 5px;
+}
+
+#header .menu li a:hover,
+#header .dropdown:hover a {
+  background: #2b2c45 !important;
+}
+
+.filters .submit input {
+  height: 100%;
+  margin: 1em 0;
+  min-height: 1.286em;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  color: #1b1c30;
+  background: #b8c0e0;
+}
+
+#header #search>* {
+  width: 70%;
+  white-space: nowrap;
+  margin-right: 60px;
+  background: transparent !important;
+}
+
+form.verbose legend,
+.verbose form legend {
+  height: auto;
+  width: auto;
+  font-size: 100%;
+  background: #a6da95;
+  color: #1b1c30;
+  border: none;
+  padding: 0.5em;
+  box-shadow: none;
+  opacity: 1;
+  margin: 10px;
+  border-radius: 0.5em;
+}
+
+.actions input[type="text"],
+.actions input[type="text"]:focus,
+.textarea,
+.autocomplete input,
+form.search input[type="text"],
+form.search input[type="text"]:focus,
+li.search fieldset,
+.search input[type="text"],
+.search input[type="text"]:focus {
+  color: #b8c0e0;
+  background: #1b1c30;
+  border: 1px solid #b8c0e0;
+  border-radius: 0.25em;
+  box-shadow: none;
+  font: 90%;
+  padding: 5px;
+  width: stretch;
+  -webkit-appearance: none;
+}
+#header .menu, #small_login {
+   
+    border: 2px solid #282942 !important;}
+.input,
+.highlighted {
+  border: none;
+}
+
+.filters input:checked+.indicator+span {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu,
+.actions a,
+.actions a:link,
+.actions a:active,
+.actions a:visited,
+.current span,
+.current,
+a.current,
+.actions .current,
+.current,
+.current a:visited,
+.current a:link,
+#dashboard .current,
+.actions a:active,
+span.unread,
+.replied,
+span.claimed,
+.own,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  color: #fab387;
+  background-image: none;
+  border-radius: 28px;
+  box-shadow: none;
+}
+
+dl.index dd {
+  color: #b8c0e0;
+}
+
+.draft,
+.draft .wrapper {
+  color: #b8c0e0;
+}
+
+#header h2,
+#footer ul,
+#footer ul.navigation a,
+.autocomplete .dropdown ul li:hover,
+li.selected {
+  color: #1b1c30;
+}
+
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+form dt,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip {
+  border-color: #22233b;
+}
+
+.heading a,
+.userstuff,
+.heading,
+#heading h3,
+.splash .module h3 {
+  color: #b8c0e0;
+}
+
+.listbox>.heading {
+  color: #b8c0e0;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.listbox .index {
+  background: transparent;
+}
+
+a.tag {
+  background-image: none;
+  background-color: transparent;
+  text-align: center;
+  line-height: 37px;
+  padding: 4px 10px 4px 10px;
+  border-radius: 18px;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: 500;
+}
+
+.actions a,
+.actions li button,
+.actions a:link,
+.actions a:visited,
+.current,
+a.current,
+.current a:visited,
+.current a:link {
+  color: #1b1c30 !important;
+  background: #b8c0e0;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+.listbox {
+  border: none;
+  border-radius: 0.5em;
+}
+
+.actions li button:hover,
+.actions a:hover,
+.actions li .current a:hover,
+.actions .current a:hover {
+  background: #fab387 !important;
+  color: #2b2c45 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 28px;
+  box-shadow: none;
+  transition: 0.2s ease-in-out !important;
+}
+
+.action.top,
+.action a:link {
+  color: #1b1c30;
+  height: auto;
+  font-weight: bolder;
+  padding: 0.15em 0.25em;
+  border-radius: 28px;
+}
+
+.splash .module h3 {
+  border-bottom: none;
+  font-variant: small-caps;
+  font-size: 1.914em;
+}
+
+.title {
+  font-variant: small-caps;
+}
+
+.published,
+.comments {
+  font-size: 14px;
+  font-variant: small-caps;
+}
+
+form .notice,
+form ul.notes {
+  box-shadow: none;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+li.relationships,
+li.relationships a,
+.thread .even,
+.preface h3 {
+  background-color: transparent;
+}
+
+.preface h3 {
+  color: #a6da95;
+}
+
+a:hover,
+.splash .browse a:hover {
+  color: #fab387;
+}
+
+#login-block,
+fieldset,
+form dl,
+#symbols-key dl,
+.toggled form,
+.dynamic form,
+div.comment,
+li.comment,
+.comment div.icon,
+.autocomplete div.dropdown ul,
+#modal,
+.bookmark p.count span,
+.ui-sortable li:hover,
+.actions a:hover,
+.actions input:hover,
+.userstuff blockquote {
+  border-color: #22233b;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  box-shadow: none;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu,
+#dashboard .current,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #22233b;
+}
+
+#dashboard.own {
+  border-top: none;
+  border-bottom: none;
+}
+
+#dashboard ul {
+  padding: 10px 0;
+  border-top: 0px;
+  border-bottom: 2px #2b2c45 solid;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+a.cloud4,
+a.cloud5 {
+  color: #b8c0e0;
+}
+
+a.cloud6 {
+  color: #b8c0e0;
+}
+
+thead,
+tfoot,
+tfoot td,
+th,
+tr:hover,
+col.name,
+input,
+textarea,
+#modal .content,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+span.unread,
+.replied,
+span.claimed,
+.system .latest h3,
+.system div.news h3,
+.listbox,
+fieldset fieldset.listbox,
+dl.meta,
+.picture .header,
+.bookmark .user {
+  border-color: #fab387;
+  background: #1b1c30;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+dl.meta,
+li.blurb,
+li.comment,
+dl.index dd,
+dl.index dt,
+.blurb .blurb,
+fieldset,
+#dashboard.own,
+#dashboard .secondary,
+#dashboard {
+  background: #22233b !important;
+  border: 2px #2b2c45 solid;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 18px;
+  transition: 0.2s ease-in;
+  margin-top: 10px;
+}
+
+.blurb:hover {
+  border: 2px #585972 solid;
+}
+
+.listbox .index,
+.dashboard .listbox .index {
+  background: #22233b;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: none;
+}
+
+.dashboard .listbox {
+  border: 2px #2b2c45 solid;
+  border-radius: 18px;
+  padding: 5px;
+}
+
+#header nav {
+  width: 100%;
+}
+
+#header ul.primary {
+  background: #a6da95 url(https://raw.githubusercontent.com/Tealtiam/ao3skins/refs/heads/main/phmao3header.png);
+  width: 80%;
+  box-shadow: none;
+  padding-top: 62px;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 0px auto;
+  float: none;
+  display: table;
+  border-radius: 25px;
+  height: 80px;
+}
+
+#header .dropdown a {
+  background: #1b1c30;
+  border-radius: 28px;
+  margin-right: 10px;
+  padding: 8px;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+#header .dropdown,
+#header .dropdown a,
+#header .dropdown a:hover {
+  color: #fab387 !important;
+}
+
+#header .dropdown .menu .current {
+  background-color: #b8c0e0;
+  color: #22233b;
+}
+
+#workskin img {
+  max-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.autocomplete div.dropdown ul {
+    border: 1px solid #b8c0e0;
+    border-radius: 10px;
+    transform: translateX(-6px);
+    padding: 8px;
+}
+
+table,
+thead td,
+#header #small_login,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme {
+  background-image: #a6da95 !important;
+  color: #22233b !important;
+  transition: 0.1s !important;
+}
+
+fieldset dl dl {
+  color: #b8c0e0 !important;
+}
+
+form blockquote.userstuff,
+.ui-sortable li:hover,
+.listbox,
+fieldset fieldset.listbox,
+.readings-index h3,
+.search span.tip,
+.flash,
+.notice {
+  background: #a6da95;
+  color: #1b1c30;
+}
+
+.comment h4.byline {
+  background: transparent;
+}
+
+body,
+#main.error,
+#main.slow,
+#main.maintenance,
+.required .autocomplete,
+.autocomplete .notice,
+.post .required .warnings,
+.listbox .heading a:visited,
+.userstuff h2,
+.userstuff caption,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link,
+a.cloud3 {
+  color: #b8c0e0;
+}
+
+.listbox h3 {
+  color: #1b1c30 !important;
+}
+
+.draft {
+  border-color: #b8c0e0;
+}
+
+.actions a,
+.action,
+.action:link,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+span.unread,
+.replied,
+span.claimed {
+  border-bottom-color: #b8c0e0;
+}
+
+.actions a,
+.actions a:link,
+.actions a:visited,
+.current,
+a.current,
+.current a:visited,
+.current a:link,
+.actions li button {
+  padding: 6px 10px 6px 10px;
+  border-radius: 28px;
+  transition: 0.2s ease-in-out !important;
+}
+
+.actions input {
+  padding: 6px 10px 6px 10px;
+}
+
+.ui-sortable li:hover,
+.secondary,
+.wrapper,
+.ui-draggable form {
+  box-shadow: none;
+}
+
+#header #small_login {
+  box-shadow: none;
+}
+
+.delete a,
+span.delete {
+  box-shadow: none;
+}
+
+#header .primary .menu .current {
+  color: #1b1c30 !important;
+}
+
+a,
+a:link,
+#dashboard span,
+.actions a:visited,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+a.tag,
+.tags a,
+a.cloud1,
+a.cloud2 {
+  border-bottom: none;
+  color: #fab387;
+}
+.autocomplete .dropdown ul li {
+  
+    border-radius: 8px !important;
+    padding: 6px;
+}
+.autocomplete .dropdown ul li:hover, li.selected {
+    background: #2b2c45 !important;
+    color: #b8c0e0;
+}
+.autocomplete li.added, .post .meta dd ul li.added {
+    display: inline-block;
+    color: #b8c0e0;
+}
+.autocomplete input{
+  width: 99%;
+}
+.news dl.meta {
+    border: none;
+    padding: 20px;
+}
+#footer ul.navigation a:hover{
+color: #22233b !important;
+}
+#footer button {
+    color: #b8c0e0 !important;
+}
+#footer button:hover {
+    color: #22233b !important;
+}
+label.action {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border: 2px #2b2c45 solid;
+    background: #1b1c30;
+}
+label.action:hover {
+    color: #b8c0e0;
+    border-top: 2px solid #2b2c45;
+    border-left: 2px solid #2b2c45;
+    box-shadow: none;
+}
+form p {
+
+    color: #b8c0e0;
+}
+
+.javascript .work.navigation .download .secondary {
+  z-index: 53;
+
+
+  
+  box-shadow: none;
+  background: #22233b;
+    border: 2px #b8c0e0 solid;
+    border-radius: 28px;
+    transform: translateY(7px);
+    box-shadow: none;
+    padding-left: 10px;
+}
+
+.javascript .work.navigation .secondary {
+  background: #22233b;
+  border: 2px #b8c0e0 solid;
+  border-radius: 28px;
+  transform: translateY(7px);
+  box-shadow: none;
+  padding-left: 10px;
+}
+.autocomplete .notice {
+    margin-top: 0 !important;
+    box-shadow: none;
+    background: #22233b;
+    border: 2px #b8c0e0 solid;
+    border-radius: 8px;
+
+    box-shadow: none;
+
+}
+.dropdown{
+  background: transparent;
+}
+div:has(> p.kudos)::before {
+  visibility: hidden;
+}
+
+.userstuff h3,
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #1b1c30;
+}
+
+.userstuff h3 {
+  border-bottom: 0px;
+  font-size: 1.8em;
+}
+
+.userstuff h2 {
+  font-size: 2em;
+}
+
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  box-shadow: none;
+}
+
+a.tag:hover {
+  color: #1b1c30 !important;
+  background: #a6da95 !important;
+}
+
+.autocomplete .dropdown ul li:hover,
+li.selected {
+  background: #b8c0e0;
+}
+
+#header #greeting img,
+#header .heading a,
+#header fieldset,
+#header form,
+#header p,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.system .latest h3,
+.system div.news h3,
+.system .tweets h3,
+.required,
+.error,
+a.cloud7,
+a.cloud8 {
+  color: #b8c0e0;
+}
+
+#outer #header #greeting .icon,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #b8c0e0;
+}
+
+.unread,
+#dashboard span,
+#dashboard.own,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.mods li,
+dl.stats dt,
+.blurb .header .heading,
+.blurb .header ul,
+.blurb .header p.status,
+fieldset.comments,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link {
+  background: #1b1c30;
+}
+
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.actions a,
+.action,
+.actions input,
+.action:link input[type="submit"],
+button,
+.current,
+.actions label,
+#outer.wrapper,
+#inner.wrapper,
+dl.index,
+dl.stats,
+.listbox,
+fieldset fieldset.listbox,
+.listbox li.blurb,
+fieldset.comments,
+dl.nomination {
+  box-shadow: none;
+  transition: 0.2s ease-in-out !important;
+}
+
+h2,
+.system p#signup,
+#header h2 {
+  text-shadow: none;
+}
+
+#header h2 {
+  background: #a6da95;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.comment fieldset {
+  margin: 10px;
+}
+
+#greeting p.icon {
+  padding: 0px;
+}
+div.comment{
+  border: none;
+}
+div.comment,
+li.comment {
+  position: relative;
+  overflow: visible;
+  text-align: start;
+}
+
+#greeting img.icon {
+  border-radius: 100px;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.primary .icon,
+.icon {
+  border-radius: 17px;
+  height: 7em;
+  width: 7em;
+  transition: 0.2s ease-in-out !important;
+}
+
+.icon:hover {
+  border-radius: 17px;
+}
+
+.picture .icon img {
+  border-radius: 17px;
+  height: 7em;
+  width: 7em;
+  margin: -8px;
+}
+
+.icon {
+  padding: none;
+}
+
+.comment div.icon {
+  border-bottom: 0px;
+}
+
+span.symbol {
+  color: #b8c0e0;
+  background: #1b1c30;
+  border: 1px solid;
+  vertical-align: super;
+  border-radius: 0.75em;
+  box-shadow: none;
+}
+
+.notice {
+  border: 1px solid #b8c0e0;
+  color: #b8c0e0;
+  background: #1b1c30;
+  box-shadow: none;
+  padding: 1em;
+}
+
+#modal-bg {
+  background: #b8c0e0;
+}
+
+.actions li .current {
+  background-color: #a6da95;
+  padding: 6px 10px 6px 10px;
+  border-radius: 28px;
+}
+
+.btn,
+input[type="submit"],
+.actions li a,
+.actions li input,
+.actions li input[type="submit"],
+.actions li label,
+.action:link {
+  color: #1b1c30;
+  background: #b8c0e0;
+  border: none !important;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 28px;
+  box-shadow: none;
+}
+
+input[type="submit"],
+input[type="submit"]:hover {
+  border: none;
+}
+
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions .current:hover {
+  color: #b8c0e0;
+  background: #1b1c30;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: 28px;
+  box-shadow: none;
+}
+
+.tags input[type="radio"],
+.filters [type="radio"]+.indicator::before,
+.filters [type="radio"]+.indicator::before {
+  color: #b8c0e0;
+  background: #1b1c30;
+  border: 1px solid #b8c0e0;
+  border-radius: 1em;
+  box-shadow: none;
+}
+
+.filters [type="radio"]:checked+.indicator::after,
+.filters [type="checkbox"]:checked+.indicator::after,
+[type="radio"]:checked+.indicator::after {
+  color: #b8c0e0;
+  background: #b8c0e0;
+}
+
+#header .primary>li:first-of-type {
+  margin-left: 2em;
+}
+
+#dashboard a {
+  background: transparent;
+}
+
+.unread,
+#dashboard span,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.dashboard .own,
+.mods li,
+dl.stats dt,
+.blurb .header .heading,
+.blurb .header ul,
+.blurb .header p.status,
+fieldset.comments,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link {
+  background: #22233b;
+}
+
+.toggled form {
+  box-shadow: none;
+  padding: 10px;
+  background: #22233b;
+  border-radius: 28px;
+  border: 2px #2b2c45 solid;
+}
+
+.toggled form fieldset {
+  padding: 10px;
+}
+
+.listbox .index,
+.dashboard .listbox .index {
+  background: transparent;
+}
+
+.assignment dl.stats,
+.assignment dl.stats dt,
+.assignment dl.stats dd,
+dl.stats,
+dl.stats dt {
+  background: transparent;
+  color: #cad3f5;
+}
+
+.assignment .index dt {
+  margin-bottom: 5px;
+}
+
+.blurb dl.stats {
+  background: #22233b;
+  margin-bottom: 5px;
+}
+
+.byline.heading {
+  color: #b8c0e0;
+}
+
+#dashboard {
+  margin-left: 10px;
+  padding: 10px !important;
+  box-sizing: border-box;
+}
+
+.userstuff p {
+  color: #b8c0e0;
+  outline: none;
+  font-size: 11pt;
+}
+
+.user .datetime {
+  color: #cad3f5;
+}
+
+.preface blockquote {
+  border: 0;
+  font-size: xx-small;
+}
+
+p.kudos {
+  background: none;
+  padding: 0.5em;
+}
+
+ul.series,
+ul.series li {
+  color: #cad3f5;
+}
+
+.own .header,
+.inbox .actions,
+.inbox .comments,
+.pseud .header,
+.collection .header {
+  background-color: transparent !important;
+}
+
+.own .type {
+  color: #cad3f5;
+}
+
+.faq .example,
+.guideline .example {
+  border: 0px;
+  background-color: #22233b;
+  border-radius: 5px;
+}
+
+.comment .icon .visitor {
+  background: url(/images/imageset.png) no-repeat -1px -76px;
+  padding: 0px;
+  margin: 5px;
+}
+
+.skins .primary .icon,
+.admin .primary .icon {
+  padding: 0px;
+  margin: 10px;
+}
+
+.bookmark .count a {
+  color: #b8c0e0;
+}
+
+.announcement .userstuff {
+  background: #a6da95;
+  border-color: #fab387;
+  color: #fff;
+}
+
+.announcement .userstuff p {
+  color: #fff;
+}
+
+#greeting .actions a {
+  background: #fab387;
+  border-radius: 28px;
+  padding: 5px 9px 5px 9px !important;
+}
+
+.announcement input[type="submit"],
+.announcement .action {
+  background: #fff none;
+  border: 1px solid #ed8796;
+  color: #cad3f5;
+  font-size: 0.875em;
+  padding: 0.25em 0.5em;
+  border-radius: 2em;
+}
+
+#dashboard .actions a:hover,
+#dashboard .current:hover {
+  border-radius: 7px !important;
+  background: #2b2c45 !important;
+  color: #cad3f5 !important;
+}
+
+#header .dropdown a {
+  background: #1b1c30;
+  border-radius: 28px;
+  margin-right: 10px;
+  padding: 8px;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+input[name="preview_button"] {
+  color: #1b1c30;
+  background-image: none;
+  border: none;
+  border-bottom: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+input[name="post_button"] {
+  color: #1b1c30;
+  background-image: none;
+  border: none;
+  border-bottom: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+input[name="preview_button"]:hover {
+  color: #1b1c30 !important;
+  background-image: none;
+  border: none;
+  border-bottom: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+input[name="post_button"]:hover {
+  color: #1b1c30 !important;
+  background-image: none;
+  border: none;
+  border-bottom: none;
+  border-radius: 0.25em;
+  box-shadow: none;
+}
+
+#footer {
+  background: #22233b !important;
+  color: #b8c0e0;
+  border-top: none !important;
+}
+
+#footer .heading,
+#footer ul,
+#footer ul.navigation a {
+  color: #b8c0e0 !important;
+}
+
+#footer a:hover {
+  box-shadow: none;
+}
+
+.event.announcement .userstuff a,
+.filters .expander {
+  color: #b8c0e0;
+}
+
+.kudos_error {
+  background: #1b1c30;
+  border-color: #fab387;
+  box-shadow: none;
+}
+
+.blurb ul.required-tags li span {
+  border-radius: 5px;
+}
+
+.bookmark .status span,
+.bookmark .status a {
+  border-radius: 5px;
+}
+
+.warnings a {
+  color: #ed8796;
+  border: solid 1px #ed8796;
+  transition: 0.4s ease-in-out;
+}
+
+.relationships a {
+  color: #a6da95;
+  border: solid 1px #a6da95;
+  transition: 0.4s ease-in-out;
+}
+
+.characters a {
+  color: #fab387;
+  border: solid 1px #fab387;
+  transition: 0.4s ease-in-out;
+}
+
+.freeforms a {
+  background: #2b2c45;
+  color: #9a9ab5;
+  transition: 0.4s ease-in-out;
+}
+
+.warnings a:hover {
+  color: #ed8796 !important;
+  border: solid 1px #ed8796 !important;
+  background: transparent !important;
+}
+
+.relationships a:hover {
+  color: #22233b;
+  background: #a6da95;
+  box-shadow: #a6da9591 0 0px 30px;
+}
+
+.characters a:hover {
+  color: #22233b;
+  background: #fab387 !important;
+  box-shadow: #fab38791 0 0px 30px;
+}
+
+.freeforms a:hover {
+  background: #a6da95 !important;
+  color: #22233b;
+}
+
+li.relationships,
+li.warning,
+li.characters,
+li.freeforms {
+  display: inline;
+  text-align: -webkit-match-parent;
+  list-style-position: inside;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: transparent;
+}
+
+.listbox>.heading {
+  color: #1b1c30;
+}
+
+.logged-in .splash>.module {
+  float: left;
+  margin: auto;
+  width: 90%;
+}
+
+.commas li:after {
+  content: "";
+}
+
+form dl {
+  background-color: transparent;
+}
+
+form dd.required {
+  color: #b8c0e0;
+}
+
+.action.top,
+.action a:link {
+  color: #1b1c30;
+  height: auto;
+  font-weight: bolder;
+  padding: 0.15em 0.25em;
+  border-radius: 28px;
+  box-shadow: none;
+  border: none;
+}
+
+ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  opacity: 1 !important;
+}
+
+.listbox > .heading {
+  color: #1b1c30 !important;
+  padding: 8px;
+  padding-top: 7px;
+  padding-right: 17px;
+  padding-left: 17px;
+  background: #a6da95;
+  margin: 13px;
+  margin-top: 22px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  box-shadow: #a6da954d -2px 6px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+}
+
+.listbox {
+  background: #22233b;
+}
+
+.logged-in .splash>.module {
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+}
+
+img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  box-sizing: border-box;
+  border: 1.5px solid #ddd;
+  background: #fab387 content-box;
+  content: url("https://zerafinacss.github.io/ao3/icons/user-default-01.png");
+}
+
+.comment .icon .anonymous {
+  box-sizing: border-box;
+  border: 1.5px solid #00000025;
+  background: url("https://zerafinacss.github.io/ao3/icons/anon-01.png"),
+    #6e6e6e border-box;
+  background-size: cover;
+}
+
+.comment .icon .visitor {
+  box-sizing: border-box;
+  border: 1.5px solid #00000025;
+  background: url("https://zerafinacss.github.io/ao3/icons/user-visitor-01.png"),
+    #6e6e6e border-box;
+  background-size: cover;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+1) a:focus {
+  background: #a6da95;
+  background-image: none;
+}
+
+.splash .favorite li a:hover,
+.splash .favorite li a:focus {
+  background: #a6da95;
+  background-image: none;
+}
+
+img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  box-sizing: border-box;
+  border: 1.5px solid #00000025;
+  background: linear-gradient(transparent, #ffffff50 45% 55%, transparent),
+    #616c90 border-box;
+  content: url("https://zerafinacss.github.io/ao3/icons/collection-01.png");
+}
+
+.tagset .primary .icon,
+.tag .primary .icon,
+.index .tagset .icon {
+  box-sizing: border-box;
+  border: 1.5px solid #00000025;
+  background: url("https://zerafinacss.github.io/ao3/icons/tag-01.png"),
+    linear-gradient(transparent, #ffffff50 45% 55%, transparent),
+    #fab387 border-box;
+  background-size: cover;
+}
+
+.index .mystery .icon {
+  box-sizing: border-box;
+  border: 1.5px solid #ddd;
+  box-shadow: inset 0 0 0 3px #fff;
+  background: url("https://zerafinacss.github.io/ao3/icons/anon-01.png"),
+    linear-gradient(transparent, #ffffff50 45% 55%, transparent) #616c90 content-box;
+  background-size: cover;
+}
+
+.admin .primary .icon {
+  box-sizing: border-box;
+  border: 1.5px solid #00000099;
+  background: url("https://zerafinacss.github.io/ao3/icons/admin-01.png") no-repeat,
+    linear-gradient(#ffffff40, transparent) #fab387 border-box;
+  background-size: cover;
+}
+
+.skins .primary .icon:not(:has(a .icon)),
+.index .skins .icon:not(:has(a .icon)) {
+  box-sizing: border-box;
+  border: 1.5px solid #ddd;
+  background: url("https://zerafinacss.github.io/ao3/icons/skins-01.png"),
+    #fab387 border-box;
+  background-size: cover;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+.blurb ul.required-tags li a>span,
+.bookmark p.status a>span,
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  box-sizing: border-box;
+  border: 1px solid;
+  background-size: cover;
+  background-origin: border-box;
+}
+
+.required-tags .rating-notrated,
+.required-tags .category-none,
+.required-tags .warning-no,
+.status .count,
+img[src$="/images/skins/iconsets/default/rating-notrated.png"],
+img[src$="/images/skins/iconsets/default/category-none.png"],
+img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  color: #00000040;
+  background: #ffffffcc;
+}
+
+.required-tags .rating-general-audience,
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-gen-01.png"),
+    #a6da95;
+}
+
+.required-tags .rating-teen,
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-teen-01.png"),
+    #fab387;
+}
+
+.required-tags .rating-mature,
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-mature-01.png"),
+    #ed8796;
+}
+
+.required-tags .rating-explicit,
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-explicit-01.png"),
+    #ed8796;
+}
+
+.required-tags .category-femslash,
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-ff-01.png"),
+    #ed8796;
+}
+
+.required-tags .category-het,
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-mf-01.png"),
+    #ed8796;
+}
+
+.required-tags .category-gen,
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-gen-01.png"),
+    #a6da95;
+}
+
+.required-tags .category-slash,
+img[src$="/images/skins/iconsets/default/category-slash.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-mm-01.png"),
+    #fab387;
+}
+
+.required-tags .category-multi,
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  color: #0000001a;
+  background: conic-gradient(from 270deg, #a6da95 25%, #ed8796 25% 50%, #fab387 50% 75%, #ed8796 75%);
+}
+
+.required-tags .category-other,
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-other-01.png"),
+    #6e6e6e;
+}
+
+.required-tags .warning-choosenotto,
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/warning-choosenotto-01.png"),
+    #ed8796;
+}
+
+.required-tags .warning-yes,
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/warning-yes-01.png"),
+    #ed8796;
+}
+
+.required-tags .external-work,
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/warning-external-work-01.png"),
+    #fab387;
+}
+
+.required-tags .complete-no,
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/complete-no-01.png"),
+    #ed8796;
+}
+
+.required-tags .complete-yes,
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/complete-yes-01.png"),
+    #a6da95;
+}
+
+.status .rec,
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-rec-01.png"),
+    #fab387;
+}
+
+.status .public,
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-public-01.png"),
+    #fab387;
+}
+
+.status .private,
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-locked-01.png"),
+    #000;
+  font-size: 0;
+}
+
+.status .private .text {
+  background: none;
+}
+
+.status .hidden,
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-locked-01.png"),
+    #ed8796;
+}
+
+a.rss span {
+  padding: 0;
+  background: none;
+}
+
+.actions li a.rss {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  column-gap: 0.3em;
+  border-radius: 28px;
+}
+
+.actions li a.rss::before {
+  box-sizing: border-box;
+  width: 0.85em;
+  height: 0.85em;
+  border: 1px solid var(--icon-border1);
+  border-radius: 2px;
+  background: url("https://zerafinacss.github.io/ao3/icons/rss-01.png") #ed8796;
+  background-size: cover;
+  content: "";
+}
+
+p.kudos {
+  background: none;
+}
+
+div:has(> p.kudos)::before {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background: url("https://zerafinacss.github.io/ao3/icons/kudos-01.png");
+  background-size: cover;
+  content: "";
+  filter: invert(62%) sepia(14%) saturate(1799%) hue-rotate(172deg) brightness(90%) contrast(86%);
+}
+
+img[src$="/images/lockblue.png"] {
+  content: url("https://zerafinacss.github.io/ao3/icons/lock-01.png");
+  filter: brightness(0) saturate(100%) invert(62%) sepia(14%) saturate(1799%) hue-rotate(172deg) brightness(90%) contrast(86%);
+}
+
+#header .logo {
+  content: url("/images/logo.png");
+}
