@@ -1,0 +1,49 @@
+/* changing the font size of the fic */
+/* 12pt is the default, change it to your desired size, then add it to the very end of your site skin code */
+/* if you want it to take effect on both desktop and mobile, only adding it to desktop is enough */
+/* but if you want different sizes on each device, add this code to both site skins (desktop and mobile) and change the value to your desired amount */
+
+#workskin p {
+  font-size: 12pt !important;
+}
+
+
+
+
+/* Change the font color of the fic */
+/* Choose a hex color, replace #eee with your desired color, and add this code to the very end of your desktop site skin code. */
+#workskin p {
+ color: #eee !important;
+}
+
+
+
+/* changing the divider image */
+/* look for this code in the desktop skin code, replace the link inside url() with your own image link */
+
+#workskin {
+    background: url(https://64.media.tumblr.com/0837fad06b13000e960e67dcd198c34d/e15a0add901c6a08-ac/s250x400/7610daac34005f8a07df3d474bd8bd98bca6a0f5.gif)  #1A1A2E;
+    background-repeat: repeat-x;
+ 
+}
+
+
+
+
+/* changing the header image */
+/* look for this code in the desktop skin code, replace the link inside url() with your own header image link */
+
+#header ul.primary {
+  background: #C779D0 url(https://64.media.tumblr.com/3caf6a489d9efba6ba7e21f7b31d394a/263a4a13dc5fd3c3-0d/s1280x1920/86be51d7c4414b62505cff36cbc4f65a295c90d2.jpg);
+  width: 95%;
+  box-shadow: none;
+  padding-top:40px;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px auto;
+  float: none;
+  display: table;
+  border-radius: 25px;
+  height: 80px;
+}
+
