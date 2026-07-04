@@ -18,8 +18,8 @@
 
 
 
-/* changing the header image */
-/* look for this code in the desktop skin code, replace the link inside url() with your own header image link */
+/* changing the background image */
+/* look for this code in the desktop skin code, replace the link inside url() with your own background image link */
 
 #main {
   background: #1b1c30 url(https://raw.githubusercontent.com/Tealtiam/ao3skins/refs/heads/main/phmskin/phmbg.png);
@@ -29,9 +29,8 @@
 
 
 
-
-/* changing the background image */
-/* look for this code in the desktop skin code, replace the link inside url() with your own background image link */
+/* changing the header image */
+/* look for this code in the desktop skin code, replace the link inside url() with your own header image link */
 
 #header ul.primary {
   background: #a6da95 url(https://raw.githubusercontent.com/Tealtiam/ao3skins/refs/heads/main/phmskin/phmao3header.png);
