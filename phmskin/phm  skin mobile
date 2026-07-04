@@ -1,0 +1,88 @@
+#header ul.primary {
+    width: 94%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+dl.stats {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#dashboard ul {
+
+    border-top: 0px;
+    border-bottom: 0;
+}
+
+ul.actions {
+
+    float: none;
+    margin-bottom: 10px;
+
+}
+
+.home .header ul.actions {
+
+    margin-top: 80px;
+}
+
+.home .header h2 {
+
+    float: left;
+}
+
+a.tag {
+
+    line-height: 25px;
+    padding: 2px 7px 2px 7px;
+
+}
+
+.javascript .work.navigation .secondary {
+
+    border-radius: 12px;
+    width: 130px;
+}
+
+.javascript .work.navigation .download .secondary {
+
+
+
+    width: fit-content;
+}
+
+.kudos_error {
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.notice {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.javascript .work.navigation .expanded+.secondary {
+    display: flex;
+}
+
+.javascript .work.navigation .chapter .secondary {
+    width: 100%;
+    flex-direction: column;
+    position: sticky;
+    margin-bottom: 10px;
+}
+
+#greeting .user>li {
+    margin: 0px;
+}
