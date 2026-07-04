@@ -1,4 +1,4 @@
-#1b1c30 #22233b #2b2c45 #585972 #9a9ab5 #b8c0e0 #cad3f5 #fab387 #a6da95 #ed8796 
+/* #1b1c30 #22233b #2b2c45 #585972 #9a9ab5 #b8c0e0 #cad3f5 #fab387 #a6da95 #ed8796  */
 body,
 .heading,
 #dashboard .actions a,
@@ -107,6 +107,11 @@ body {
 }
 
 #workskin .module {
+
+  background: #1b1c30;
+}
+
+#workskin {
 
   background: #1b1c30;
 }
@@ -1177,6 +1182,29 @@ textarea.LV_invalid_field:active,
   border-color: #b8c0e0;
 }
 
+.LV_invalid {
+  background: #2b2c45;
+  border: 1px #ed8796 solid !important;
+  color: #ed8796;
+  padding: 0.25em 0.375em;
+  box-shadow: none;
+  border-radius: 28px;
+}
+
+.LV_invalid:before {
+
+  visibility: hidden;
+}
+
+#previewpane #workskin {
+  background: #22233b !important;
+}
+
+#previewpane #workskin .module {
+  background: #22233b !important;
+}
+
+
 .unread,
 #dashboard span,
 #dashboard.own,
@@ -1317,8 +1345,30 @@ span.symbol {
   margin-top: 60px;
 }
 
-#modal-bg {
-  background: #b8c0e0;
+#modal-wrap {
+
+  background: #1b1c30b8;
+}
+
+#modal {
+  background: #1b1c30;
+  border: 5px solid #1b1c30;
+  margin: 3% 0;
+  max-width: 800px;
+  min-width: 200px;
+  padding-bottom: 44px;
+  position: relative;
+  text-align: left;
+  width: 80%;
+  z-index: 501;
+  box-shadow: 0 0 8px 0 #1b1c302b;
+  border-radius: 28px;
+}
+
+#modal .content {
+
+  border-radius: 28px !important;
+
 }
 
 .actions li .current {
