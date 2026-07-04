@@ -1,0 +1,64 @@
+/* changing the font size of the fic */
+/* 12pt is the default, change it to your desired size, then add it to the very end of your site skin code */
+/* if you want it to take effect on both desktop and mobile, only adding it to desktop is enough */
+/* but if you want different sizes on each device, add this code to both site skins (desktop and mobile) and change the value to your desired amount */
+
+#workskin p {
+  font-size: 12pt !important;
+}
+
+
+
+
+/* Change the font color of the fic */
+/* Choose a hex color, replace #eee with your desired color, and add this code to the very end of your desktop site skin code. */
+#workskin p {
+ color: #eee !important;
+}
+
+
+
+/* changing the header image */
+/* look for this code in the desktop skin code, replace the link inside url() with your own header image link */
+
+#main {
+  background: #1b1c30 url(https://raw.githubusercontent.com/Tealtiam/ao3skins/refs/heads/main/phmskin/phmbg.png);
+  background-attachment: fixed;
+}
+
+
+
+
+
+/* changing the background image */
+/* look for this code in the desktop skin code, replace the link inside url() with your own background image link */
+
+#header ul.primary {
+  background: #a6da95 url(https://raw.githubusercontent.com/Tealtiam/ao3skins/refs/heads/main/phmskin/phmao3header.png);
+  width: 80%;
+  box-shadow: none;
+  padding-top: 50px;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 0px auto;
+  float: none;
+  display: table;
+  border-radius: 25px;
+  height: 80px;
+}
+
+
+/* changing rocky */
+/* look for this code in the desktop skin code, replace the link inside url() with your own image link */
+/* if you want to delete them completely, remove the link inside url() . Now Rocky gone. statement. */
+
+div:has(> p.kudos)::before {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background: url(https://raw.githubusercontent.com/Tealtiam/ao3skins/refs/heads/main/phmskin/ao3rocky.png);
+  background-size: cover;
+  content: "";
+  transform: translateY(-60px);
+}
+
