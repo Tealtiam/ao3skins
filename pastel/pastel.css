@@ -2109,6 +2109,6 @@ img[src$="/images/lockblue.png"] {
 #header .logo {
   content: url("/images/logo.png");
 }
-.listbox, fieldset fieldset.listbox, fieldset{
+fieldset fieldset.listbox, fieldset{
   overflow: visible;
 }
