@@ -1,3 +1,4 @@
+#1b1c30 #22233b #2b2c45 #585972 #9a9ab5 #b8c0e0 #cad3f5 #fab387 #a6da95 #ed8796 
 body,
 .heading,
 #dashboard .actions a,
@@ -233,6 +234,7 @@ textarea,
 
 .bookmark .count a {
   color: #1b1c30 !important;
+  background: #b8c0e0;
 }
 
 .comment_notice,
@@ -1996,7 +1998,7 @@ img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
 img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
   color: #0000001a;
   background: url("https://zerafinacss.github.io/ao3/icons/bookmark-locked-01.png"),
-    #000;
+    #2b2c45;
   font-size: 0;
 }
 
