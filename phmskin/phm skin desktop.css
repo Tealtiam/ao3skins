@@ -1504,7 +1504,7 @@ li.freeforms {
 .listbox>.heading {
   color: #1b1c30;
 }
-.listbox, fieldset fieldset.listbox, fieldset{
+fieldset fieldset.listbox, fieldset{
   overflow: visible;
 }
 .logged-in .splash>.module {
