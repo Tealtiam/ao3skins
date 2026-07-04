@@ -785,7 +785,7 @@ fieldset,
 }
 
 dl.meta:hover,
-li.blurb:hover,
+.listbox li.blurb:hover,
 li.comment:hover,
 
 .blurb .blurb:hover,
@@ -2108,27 +2108,36 @@ img[src$="/images/lockblue.png"] {
 #header .logo {
   content: url("/images/logo.png");
 }
- fieldset fieldset.listbox, fieldset{
+
+fieldset fieldset.listbox,
+fieldset {
   overflow: visible;
 }
 
-.dynamic form{
-background: #22233b;
-    color: #b8c0e0;
-    border-radius: 15px;
-    border: 2px solid #2a2b44;
+.dynamic form {
+  background: #22233b;
+  color: #b8c0e0;
+  border-radius: 15px;
+  border: 2px solid #2a2b44;
 }
+
 div.dynamic {
-    background: transparent;
-    position: absolute;
-    z-index: 500;
-    border: none;
+  background: transparent;
+  position: absolute;
+  z-index: 500;
+  border: none;
 }
+
 div.comment {
-    border: none;
- 
+  border: none;
+
 }
-#comment_cancel{
+
+#comment_cancel {
   background: #b8c0e0;
-    margin: 0;
+  margin: 0;
+}
+
+#header h2 {
+  visibility: hidden;
 }
