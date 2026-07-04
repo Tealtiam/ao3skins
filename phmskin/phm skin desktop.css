@@ -787,10 +787,9 @@ fieldset,
 dl.meta:hover,
 li.blurb:hover,
 li.comment:hover,
-dl.index dd:hover,
-dl.index dt:hover,
+
 .blurb .blurb:hover,
-fieldset:hover,
+
 #dashboard.own:hover,
 #dashboard .secondary:hover,
 #dashboard:hover {
@@ -1188,7 +1187,7 @@ textarea.LV_invalid_field:active,
   color: #ed8796;
   padding: 0.25em 0.375em;
   box-shadow: none;
-  border-radius: 28px;
+  border-radius: 5px;
 }
 
 .LV_invalid:before {
@@ -2111,4 +2110,25 @@ img[src$="/images/lockblue.png"] {
 }
  fieldset fieldset.listbox, fieldset{
   overflow: visible;
+}
+
+.dynamic form{
+background: #22233b;
+    color: #b8c0e0;
+    border-radius: 15px;
+    border: 2px solid #2a2b44;
+}
+div.dynamic {
+    background: transparent;
+    position: absolute;
+    z-index: 500;
+    border: none;
+}
+div.comment {
+    border: none;
+ 
+}
+#comment_cancel{
+  background: #b8c0e0;
+    margin: 0;
 }
